@@ -1,0 +1,43 @@
+cff-version: 1.2.0
+
+title: "testing testing"
+
+message: >
+  If you use this software, please cite it using the metadata below.
+  A Zenodo DOI will be provided when available.
+
+type: software
+
+authors:
+  - given-names: "taki"
+    family-names: "taki"
+    affiliation: "University of Oulu"
+    email: "Zobayer.Hossain@oulu.fi"
+    orcid: "https://orcid.org/0009-0006-0703-2883"
+
+
+
+identifiers:
+  - type: url
+    value: "https://github.com/Taki1615/testing git repo creation"
+    description: GitHub repository
+
+
+
+repository-code: "https://github.com/Taki1615/testing git repo creation"
+
+url: "https://github.com/Taki1615/testing git repo creation"
+
+abstract: >
+  predict 3 days flow data
+
+keywords:
+  - research
+  - open-science
+  - reproducibility
+
+license: "MIT"
+
+version: "0.1.0"
+
+date-released: "2026"
