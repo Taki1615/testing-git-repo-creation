@@ -18,3 +18,4 @@ SALib
 pymoo
 plotly
 folium
+ipywidgets
