@@ -17,9 +17,9 @@ jobs:
       - name: Build with repo2docker
         uses: jupyterhub/repo2docker-action@master
         with:
-          DOCKER_USERNAME: ${{ github.actor }}
-          DOCKER_PASSWORD: ${{ secrets.GITHUB_TOKEN }}
-          DOCKER_REGISTRY: ghcr.io
-          IMAGE_NAME: ghcr.io/taki1615/testing-git-repo-creation
+          DOCKER_USERNAME: ${{ secrets.DOCKER_USERNAME }}
+          DOCKER_PASSWORD: ${{ secrets.DOCKER_PASSWORD }}
+          DOCKER_REGISTRY: ""
+          IMAGE_NAME: taki1615/testing-git-repo-creation
           ADDITIONAL_TAG: ${{ github.sha }}
 
